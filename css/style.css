@@ -1,0 +1,177 @@
+/* IMPOSTAZIONI GENERALI */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  /* margin-top: 0.5em;
+  margin-bottom: 0.5em; */
+  /* scorciatoia */
+  margin: 0.5em 0;
+
+  /* margin: 1em <-- applica 1em a TUTTI i lati (margin-top, margin-bottom, margin-left, margin-right) */
+  /* margin: 1em 0 <-- applica 1em top+bottom, 0 left+right*/
+  /* margin: 1em 0.5em 0 <-- applica 1em top+bottom, 0 left+right*/
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.60em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+ol{
+    list-style-type: decimal;
+}
+/* REGOLE SPECIFICHE PER QUESTA PAGINA */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,510;1,510&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap");
+body{
+ max-width: 500px;
+ margin: auto;
+    background-image:url(../img/sfondo.png);
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+
+}
+img{
+    width: 80%;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background: #02607d;
+background: linear-gradient(0deg, rgba(2, 96, 125, 1) 0%, rgba(10, 168, 171, 1) 61%);
+ /*   margin-top: 20px;*/
+ padding: 20px;
+  border: 1px solid  rgb(165, 162, 162);
+}
+header, header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* MAIN */
+main{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+     border: 2.5px solid  rgb(219, 219, 219);
+}
+main div {
+    margin-bottom: 20px
+}
+
+.grey-text{
+    color: grey;
+    margin-bottom: 20px;
+}
+p span{
+    color: blueviolet;
+}
+.part1{
+    margin-bottom: 20px;
+
+}
+h4{
+    font-weight: lighter;
+}
+.disc {
+  list-style-type: disc;
+}
+ li span{
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 5px;
+}
+b {
+    color: blueviolet;
+}
+ol{
+    margin-bottom: 20px;
+}
+caption{
+    font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #e4e4e4;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+ ;
+}
+tr th{
+    background-color: rgb(77, 77, 211);
+     color: rgb(255, 255, 255)
+}
+table{
+    border-bottom: 2px solid  rgb(77, 77, 211) ;
+    width: 100%;
+}
+.newsletter{
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    border: 2px solid  rgb(219, 219, 219);
+}
+h2 {
+    text-align: center;
+    padding-bottom: 3px;
+}
+input{
+    border: none;
+    border-bottom: 1px dashed black;
+}
+button{
+    background-color: rgb(93, 93, 207);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.date{
+    text-align: end;
+    margin-top: 20px;
+}
+main a{
+    color: rgb(30, 182, 241);
+}
+/* FOOTER */
+footer{
+     margin-top: 20px;
+    background: #034154;
+background: linear-gradient(0deg, rgba(3, 65, 84, 1) 0%, rgba(4, 103, 122, 1) 61%);
+    padding: 10px 10px 10px 10px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+h5{
+    font-weight: lighter;
+padding-bottom: 20px;
+}
+footer a{
+    color: rgb(192, 148, 233);
+    font-weight: bolder;
+}
+
